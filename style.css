@@ -1,0 +1,238 @@
+/*Seccion principal */
+
+*{
+    background: var(--color-fondo-claro);
+    background-color: var(--background-color);
+    font-family: Avenir;
+    font-size: 118%;
+    font-weight: 450;
+    line-height: 1.5;
+    text-align: left;
+
+}
+
+:root{
+   
+    --color-fondo-claro: #E9E9E9;
+    --color-fondo-oscuro: #0D0D0D;
+    --color-texto-claro: #262626;
+    --color-texto-oscuro: #d8dfe8;
+    --color-letra-defecto: #262626;
+    --color-borde-uno: #D2D2D2; 
+
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    Top: 4%;
+    Left: 3%;
+    Gap: 3%;
+    background: transparent;
+}
+
+main{
+    display: flex;
+    margin-left: 5%;
+    justify-items: normal;
+}
+
+.text-area{
+    resize: none;
+    border: none;
+    text-transform: lowercase;
+    color: var(--color-texto-uno);
+    width: 88%;
+}
+
+::placeholder{ color: var(--color-texto-uno) }
+    .text-area:focus{
+        outline: none;
+    }
+
+.mensaje{
+    resize: none;
+    border: none;
+    text-transform: lowercase;
+    color: var(--color-texto-uno);
+    background-image: url(/imagenes/Muñeco.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%; 
+    width: 80%;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.informacion{
+    font-size: 0.9rem;
+    color: var(--color-texto-uno);
+}
+
+.informacion2{
+    margin-left: 5%;
+    font-size: 0.9rem;
+    color: var(--color-texto-uno);
+}
+
+.botones{
+    display: flex;
+}
+
+.btn-encriptar{
+    background-color: var(--color-borde-uno);
+    border: 1 px solid var(--color-texto-claro);
+    border-radius: 24px;
+    color:#043871;
+    cursor: pointer;
+    height: 15%;
+    width: 296px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.8rem;
+
+}
+
+.btn-desencriptar{
+    background-color: var(--color-borde-uno);
+    border: 1 px solid var(--color-texto-claro);
+    border-radius: 24px;
+    color:#043871;
+    cursor: pointer;
+    height: 15%;
+    width: 296px;
+    margin-left: 2%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.8rem;
+    
+}
+
+.copiar{
+    background-color: var(--color-borde-uno);
+    border: 1 px solid var(--color-texto-claro);
+    border-radius: 24px;
+    color:#043871;
+    cursor: pointer;
+    height: 15%;
+    width: 296px;
+    margin-left: 15%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.8rem;
+}
+
+.footer{
+    justify-content: center;
+    display: flex;
+    margin-top: 1.9%;
+    border: none;
+    font-size: 1.2rem;
+    position: relative;
+
+}
+
+.modo-oscuro{
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: var(--color-texto-claro)
+
+}
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1%;
+    gap: 15%;
+    margin-top: 0.5%;
+    max-width: 100%;
+}
+
+
+/* Seccion modo oscuro */
+
+:root {
+    --background-color: var(--color-fondo-claro);
+    --text-color: var(--color-texto-claro);
+}
+
+[data-theme="dark"] {
+    --background-color: var(--color-fondo-oscuro);
+    --text-color: var(--color-texto-oscuro);
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    justify-items: center;
+   
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: var(--background-color);
+}
+
+button {
+    padding: 1px 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    background: transparent;
+    background-color: var(--background-color);
+    color: var(--color-texto-uno);
+}
+
+
+/* Seccion para dispositivos tablet y celular */
+@media (max-width: 1174px){
+    main {
+        flex-direction: column;
+    }
+
+    body {
+        flex-direction: column;
+    }
+
+    .botones{
+        flex-direction: column;
+        gap: 10px; 
+    }
+
+    .footer{
+        margin-top: 20px;
+    }
+
+    .modo-oscuro{
+        margin-top: 10px;
+    }
+
+    .btn-encriptar, .btn-desencriptar, .copiar {
+        font-size: 1.1rem;
+        height: 48px;
+        margin-left: 5%;
+    }
+
+    .button{
+        align-items: center;
+    }
+
+    .redes{
+        margin-top: auto;
+        position: absolute;
+        bottom: -20%;
+        left: 50%;
+        transform: translateX(-50%); 
+    }
+}
