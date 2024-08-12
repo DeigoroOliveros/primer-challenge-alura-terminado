@@ -11,10 +11,6 @@ Este proyecto es la solución al primer challenge de Alura Latam, donde el objet
 - **Modo oscuro**: Tiene un botón donde se puede realizar cambio a modo oscuro y viceversa
 - **Despliegue en Vercel**: El proyecto está desplegado en Vercel, lo que permite un acceso rápido y seguro a la aplicación web.
 
-## Acceso al Proyecto
-
-Puedes ver el proyecto en acción visitando el siguiente enlace: [Primer Challenge Alura Latam](https://primer-challege-alura-terminado-33yp.vercel.app/).
-
 ## Tecnologías Utilizadas
 
 - HTML
