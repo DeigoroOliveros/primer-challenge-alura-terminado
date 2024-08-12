@@ -24,29 +24,18 @@ Puedes ver el proyecto en acción visitando el siguiente enlace: [Primer Challen
 
 ## Cómo Ejecutar el Proyecto Localmente
 
-1. Clona este repositorio en tu máquina local:
+. Clona este repositorio en tu máquina local:
     ```bash
     git clone https://github.com/tu-usuario/nombre-del-repo.git
     ```
-2. Navega a la carpeta del proyecto:
-    ```bash
-    cd nombre-del-repo
-    ```
-3. Abre el archivo `index.html` en tu navegador.
 
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Si deseas contribuir ya que aun no me manejo bien en esta plataforma y siempre está la proactividad de aprender:
 
-1. Haz un fork del repositorio.
-2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
-3. Realiza tus cambios y haz un commit (`git commit -am 'Agrega nueva funcionalidad'`).
-4. Empuja la rama (`git push origin feature/nueva-funcionalidad`).
-5. Abre un Pull Request.
-
 ## Contacto
 
 Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de:
 
-- **Email**: deigoro.oliveros@gmail,com
+- **Email**: deigoro.oliveros@gmail.com
 - **LinkedIn**: [Linkedin](https://www.linkedin.com/in/deigoro-oliveros/)
