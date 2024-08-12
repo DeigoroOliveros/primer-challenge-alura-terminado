@@ -18,13 +18,6 @@ Este proyecto es la solución al primer challenge de Alura Latam, donde el objet
 - JavaScript
 - Vercel (para ver el enlace)
 
-## Cómo Ejecutar el Proyecto Localmente
-
-. Clona este repositorio en tu máquina local:
-    ```bash
-    git clone https://github.com/tu-usuario/nombre-del-repo.git
-    ```
-
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Si deseas contribuir ya que aun no me manejo bien en esta plataforma y siempre está la proactividad de aprender:
