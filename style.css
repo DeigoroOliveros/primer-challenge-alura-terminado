@@ -22,14 +22,23 @@
 
 }
 
-.logo{
-    width: 100px;
+/* Estilos para el header con clase "mi-header" */
+header.mi-header .logo {
+    width: 6rem;
     height: auto;
-    Top: 4%;
-    Left: 3%;
-    Gap: 3%;
+    top: 4%;
+    left: 3%;
+    gap: 3%;
     background: transparent;
 }
+
+header.mi-header .modo-oscuro {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: var(--color-texto-claro);
+}
+
 
 main{
     display: flex;
@@ -127,32 +136,26 @@ main{
     font-size: 1.8rem;
 }
 
-.footer{
-    justify-content: center;
-    display: flex;
+.footer {
+    align-items: center; 
     margin-top: 1.9%;
     border: none;
     font-size: 1.2rem;
     position: relative;
-
 }
 
-.modo-oscuro{
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    color: var(--color-texto-claro)
-
-}
-
-.redes{
+.redes {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 15px; 
     margin-left: 1%;
-    gap: 15%;
-    margin-top: 0.5%;
     max-width: 100%;
+}
+
+.redes img {
+    width: 50px; 
+    height: auto; 
 }
 
 
