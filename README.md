@@ -21,10 +21,3 @@ Este proyecto es la solución al primer challenge de Alura Latam, donde el objet
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Si deseas contribuir ya que aun no me manejo bien en esta plataforma y siempre está la proactividad de aprender:
-
-## Contacto
-
-Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de:
-
-- **Email**: deigoro.oliveros@gmail.com
-- **LinkedIn**: [Linkedin](https://www.linkedin.com/in/deigoro-oliveros/)
